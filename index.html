@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meri Free Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>नमस्ते! यह मेरी फ्री वेबसाइट है</h1>
+    <p>यहाँ आप अपनी जानकारी, प्रोजेक्ट्स या संपर्क जोड़ सकते हैं।</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>मेरे प्रोजेक्ट्स</h2>
+      <ul>
+        <li>प्रोजेक्ट 1 — छोटा डिस्क्रिप्शन</li>
+        <li>प्रोजेक्ट 2 — छोटा डिस्क्रिप्शन</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>संपर्क</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> मेरा नाम</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
